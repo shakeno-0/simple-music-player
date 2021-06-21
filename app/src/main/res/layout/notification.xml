@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/no_pic"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_launcher_foreground"/>
+
+        <TextView
+            android:id="@+id/no_music_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_toRightOf="@+id/no_pic"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:lines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/no_music_singer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="12sp"
+            android:layout_below="@id/no_music_name"
+            android:layout_alignLeft="@id/no_music_name"
+            android:layout_marginTop="10dp"
+            android:lines="1"
+            android:ellipsize="end"/>
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/no_iv_pre"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginRight="94dp"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginTop="18dp"-->
+<!--            android:background="@mipmap/icon_last"/>-->
+<!--        <ImageButton-->
+<!--            android:id="@+id/no_iv_play"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginRight="52dp"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginTop="18dp"-->
+<!--            android:background="@mipmap/icon_pause"/>-->
+<!--        <ImageButton-->
+<!--            android:id="@+id/no_iv_next"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="18dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:background="@mipmap/icon_next"/>-->
+
+    </RelativeLayout>
+
+
+</LinearLayout>
